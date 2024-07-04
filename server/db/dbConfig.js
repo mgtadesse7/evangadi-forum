@@ -1,7 +1,7 @@
 const mysql2 = require("mysql2");
 
 const dbConnection = mysql2.createPool({
-  socketPath: process.env.DB_SOCKETPATH,
+  // socketPath: process.env.DB_SOCKETPATH,
   user: process.env.DB_USER,
   database: process.env.DB_DATABASE,
   host: process.env.DB_HOST,
